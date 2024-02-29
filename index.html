@@ -1,31 +1,42 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
+    <title>Horizontal Timeline</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="Assets/le mans logo3.png" type="png">
-    <title>100 Years of LeMans</title>
-
+</head>
+<body>
+    <section class="section intro">
+        <div class="container">
+            <h1>Horizontal Timeline &rarr;</h1>
+        </div>
+    </section>
+    
     <section class="timeline">
         <ol>
             <li>
                 <div>
-                    <time>1923</time>
+                    <h2>Event 1</h2>
+                    <p>Description of Event 1</p>
                 </div>
             </li>
+            <li>
+                <div>
+                    <h2>Event 2</h2>
+                    <p>Description of Event 2</p>
+                </div>
+            </li>
+            <!-- Add more events here -->
         </ol>
-
+        <div class="arrows">
+            <button class="arrow arrow__prev disabled" disabled>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow_prev.svg" alt="prev timeline arrow">
+            </button>
+            <button class="arrow arrow__next">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow_next.svg" alt="next timeline arrow">
+            </button>
+        </div>
     </section>
-
-</head>
-
-<body>
-
 </body>
-
 </html>
-
