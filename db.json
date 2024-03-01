@@ -838,6 +838,21 @@
             "Country of Car": "Japan",
             "Car Model": "Toyota GR010 Hybrid",
             "image": "https://i.postimg.cc/G2vD02H8/Screen-Shot-2024-03-01-at-10-21-12-AM-removebg-preview.png"
-        }
+        },
+    
+    "2023": {
+        "Winners": "James Calado, Antonio Giovinazzi, Alessandro Pier Guidi",
+        "Year": "2023",
+        "Racer Nationality": "Calado (British), Giovinazzi (Italian), Pier Guidi (Italian)",
+        "Car Company": "Ferrari",
+        "Country of Car": "Italy",
+        "Car Model": "Ferrari 499P",
+        "image": "https://i.postimg.cc/qMF2C9V7/removal-ai-c1e90036-358a-4fd4-b92d-c25fe5a826f9-screen-shot-2024-03-01-at-10-26-43-am.png"
+    }, 
+    "2024": {
+        "Year": "2024",
+        "Note": "The 2024 LeMans race has not been held yet, but is expected to be on June 15th. New manufacturers like Lamborghini and Alpine are planned to join the race in the official WEC."
     }
+    }
+
 }
