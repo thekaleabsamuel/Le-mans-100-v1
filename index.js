@@ -1,6 +1,6 @@
 function appendTimeline(car){
   const timeLine = document.querySelector("#car-timeline")
-
+  
 }
 
 function grab1920s() {

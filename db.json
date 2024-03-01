@@ -6,7 +6,8 @@
             "Racer Nationality": "French",
             "Car Company": "Chenard & Walcker",
             "Country of Car": "France",
-            "Car Model": "Chenard & Walcker Sport"
+            "Car Model": "Chenard & Walcker Sport",
+            "image": "https://freeimage.host/i/JMYWRbn"
         },
         "1924": {
             "Winners": "John Duff and Frank Clement",
@@ -14,7 +15,8 @@
             "Racer Nationality": "Duff (Canadian), Clement (British)",
             "Car Company": "Bentley",
             "Country of Car": "United Kingdom",
-            "Car Model": "Bentley 3.0 Litre"
+            "Car Model": "Bentley 3.0 Litre",
+            "image": "https://freeimage.host/i/JMYWYWG"
         },
         "1925": {
             "Winners": "Gérard de Courcelles and André Rossignol",
@@ -22,7 +24,8 @@
             "Racer Nationality": "French",
             "Car Company": "Lorraine-Dietrich",
             "Country of Car": "France",
-            "Car Model": "Lorraine-Dietrich B3-6"
+            "Car Model": "Lorraine-Dietrich B3-6",
+            "image": "https://freeimage.host/i/JMYW7xs"
         },
         "1926": {
             "Winners": "Robert Bloch and André Rossignol",
@@ -30,7 +33,8 @@
             "Racer Nationality": "Bloch (Swiss), Rossignol (French)",
             "Car Company": "Lorraine-Dietrich",
             "Country of Car": "France",
-            "Car Model": "Lorraine-Dietrich B3-6"
+            "Car Model": "Lorraine-Dietrich B3-6",
+            "image": "https://freeimage.host/i/JMYWAOX"
         },
         "1927": {
             "Winners": "Robert Bloch and André Rossignol",
@@ -38,7 +42,8 @@
             "Racer Nationality": "Bloch (Swiss), Rossignol (French)",
             "Car Company": "Lorraine-Dietrich",
             "Country of Car": "France",
-            "Car Model": "Lorraine-Dietrich B3-6"
+            "Car Model": "Lorraine-Dietrich B3-6",
+            "image": "https://freeimage.host/i/JMYWasf"
         },
         "1928": {
             "Winners": "Woolf Barnato and Bernard Rubin",
@@ -46,7 +51,8 @@
             "Racer Nationality": "Barnato (British), Rubin (British)",
             "Car Company": "Bentley",
             "Country of Car": "United Kingdom",
-            "Car Model": "Bentley 4½ Litre"
+            "Car Model": "Bentley 4½ Litre",
+            "image": "https://freeimage.host/i/JMYWlf4"
         },
         "1929": {
             "Winners": "Woolf Barnato and Henry Birkin",
@@ -54,7 +60,8 @@
             "Racer Nationality": "Barnato (British), Birkin (British)",
             "Car Company": "Bentley",
             "Country of Car": "United Kingdom",
-            "Car Model": "Bentley Speed Six"
+            "Car Model": "Bentley Speed Six",
+            "image": "https://freeimage.host/i/JMYW00l"
         }
     },
     "1930s": {
@@ -64,7 +71,8 @@
             "Racer Nationality": "Barnato (British), Kidston (British)",
             "Car Company": "Bentley",
             "Country of Car": "United Kingdom",
-            "Car Model": "Bentley Speed Six"
+            "Car Model": "Bentley Speed Six",
+            "image": "https://freeimage.host/i/JMYW1g2"
         },
         "1931": {
             "Winners": "Earl Howe and Tim Birkin",
@@ -72,7 +80,8 @@
             "Racer Nationality": "Howe (British), Birkin (British)",
             "Car Company": "Alfa Romeo",
             "Country of Car": "Italy",
-            "Car Model": "Alfa Romeo 8C 2300"
+            "Car Model": "Alfa Romeo 8C 2300",
+            "image": "https://freeimage.host/i/JMYWGJS"
         },
         "1932": {
             "Winners": "Raymond Sommer and Luigi Chinetti",
@@ -80,7 +89,8 @@
             "Racer Nationality": "Sommer (French), Chinetti (Italian-American)",
             "Car Company": "Alfa Romeo",
             "Country of Car": "Italy",
-            "Car Model": "Alfa Romeo 8C 2300"
+            "Car Model": "Alfa Romeo 8C 2300",
+            "image": "https://freeimage.host/i/JMYWM57"
         },
         "1933": {
             "Winners": "Raymond Sommer and Tazio Nuvolari",
@@ -88,7 +98,8 @@
             "Racer Nationality": "Sommer (French), Nuvolari (Italian)",
             "Car Company": "Alfa Romeo",
             "Country of Car": "Italy",
-            "Car Model": "Alfa Romeo 8C 2300"
+            "Car Model": "Alfa Romeo 8C 2300",
+            "image": "https://freeimage.host/i/JMYWVe9"
         },
         "1934": {
             "Winners": "Luigi Chinetti and Philippe Étancelin",
@@ -96,7 +107,8 @@
             "Racer Nationality": "Chinetti (Italian-American), Étancelin (French)",
             "Car Company": "Alfa Romeo",
             "Country of Car": "Italy",
-            "Car Model": "Alfa Romeo 8C 2300"
+            "Car Model": "Alfa Romeo 8C 2300",
+            "image": "https://freeimage.host/i/JMYWWbe"
         },
         "1935": {
             "Winners": "John Hindmarsh and Luis Fontés",
@@ -104,7 +116,8 @@
             "Racer Nationality": "Hindmarsh (British), Fontés (French)",
             "Car Company": "Lagonda",
             "Country of Car": "United Kingdom",
-            "Car Model": "Lagonda M45R"
+            "Car Model": "Lagonda M45R",
+            "image": "https://freeimage.host/i/JMYWhzu"
         },
         "1936": {
             "Winners": "Jean-Pierre Wimille and Raymond Sommer",
@@ -112,7 +125,8 @@
             "Racer Nationality": "Wimille (French), Sommer (French)",
             "Car Company": "Bugatti",
             "Country of Car": "France",
-            "Car Model": "Bugatti Type 57G"
+            "Car Model": "Bugatti Type 57G",
+            "image": "https://freeimage.host/i/JMYWjWb"
         },
         "1937": {
             "Winners": "Jean-Pierre Wimille and Robert Benoist",
@@ -120,7 +134,8 @@
             "Racer Nationality": "Wimille (French), Benoist (French)",
             "Car Company": "Bugatti",
             "Country of Car": "France",
-            "Car Model": "Bugatti Type 57G"
+            "Car Model": "Bugatti Type 57G",
+            "image": "https://freeimage.host/i/JMYWjWb"
         },
         "1938": {
             "Winners": "Eugène Chaboud and Jean Trémoulet",
@@ -128,7 +143,8 @@
             "Racer Nationality": "Chaboud (French), Trémoulet (French)",
             "Car Company": "Delahaye",
             "Country of Car": "France",
-            "Car Model": "Delahaye 135CS"
+            "Car Model": "Delahaye 135CS",
+            "image": "https://i.postimg.cc/Qdwzd4dL/1938-removebg-preview.png"
         },
         "1939": {
             "Winners": "Jean-Pierre Wimille and Pierre Veyron",
@@ -136,7 +152,8 @@
             "Racer Nationality": "Wimille (French), Veyron (French)",
             "Car Company": "Bugatti",
             "Country of Car": "France",
-            "Car Model": "Bugatti Type 57C"
+            "Car Model": "Bugatti Type 57C",
+            "image": "https://freeimage.host/i/JMYWwsj"
         }
     },
     "1940s": {
@@ -146,7 +163,8 @@
             "Racer Nationality": "Chinetti (Italian-American), Selsdon (British)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 166MM"
+            "Car Model": "Ferrari 166MM",
+            "image": "https://freeimage.host/i/JMYWOqx"
         }
     },
     "1950s": {
@@ -156,7 +174,8 @@
             "Racer Nationality": "Louis Rosier (French), Jean-Louis Rosier (French)",
             "Car Company": "Talbot-Lago",
             "Country of Car": "France",
-            "Car Model": "Talbot-Lago T26GS"
+            "Car Model": "Talbot-Lago T26GS",
+            "image": "https://freeimage.host/i/JMYWe0Q"
         },
         "1951": {
             "Winners": "Peter Walker and Peter Whitehead",
@@ -164,7 +183,8 @@
             "Racer Nationality": "Walker (British), Whitehead (British)",
             "Car Company": "Jaguar",
             "Country of Car": "United Kingdom",
-            "Car Model": "Jaguar C-Type"
+            "Car Model": "Jaguar C-Type",
+            "image": "https://freeimage.host/i/JMYWkgV"
         },
         "1952": {
             "Winners": "Hermann Lang and Fritz Riess",
@@ -172,7 +192,8 @@
             "Racer Nationality": "Lang (German), Riess (German)",
             "Car Company": "Mercedes-Benz",
             "Country of Car": "Germany",
-            "Car Model": "Mercedes-Benz 300SL"
+            "Car Model": "Mercedes-Benz 300SL",
+            "image": "https://freeimage.host/i/JMYW8dB"
         },
         "1953": {
             "Winners": "Tony Rolt and Duncan Hamilton",
@@ -180,7 +201,8 @@
             "Racer Nationality": "Rolt (British), Hamilton (British)",
             "Car Company": "Jaguar",
             "Country of Car": "United Kingdom",
-            "Car Model": "Jaguar C-Type"
+            "Car Model": "Jaguar C-Type",
+            "image": "https://freeimage.host/i/JMYWS5P"
         },
         "1954": {
             "Winners": "José Froilán González and Maurice Trintignant",
@@ -188,7 +210,8 @@
             "Racer Nationality": "González (Argentinian), Trintignant (French)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 375 Plus"
+            "Car Model": "Ferrari 375 Plus",
+            "image": "https://freeimage.host/i/JMYWUe1"
         },
         "1955": {
             "Note": "The 1955 Le Mans race was marred by a tragic accident, and no winner was officially declared."
@@ -199,7 +222,8 @@
             "Racer Nationality": "Flockhart (British), Sanderson (British)",
             "Car Company": "Jaguar",
             "Country of Car": "United Kingdom",
-            "Car Model": "Jaguar D-Type"
+            "Car Model": "Jaguar D-Type",
+            "image": "https://freeimage.host/i/JMYWgmF"
         },
         "1957": {
             "Winners": "Ron Flockhart and Ivor Bueb",
@@ -207,7 +231,8 @@
             "Racer Nationality": "Flockhart (British), Bueb (British)",
             "Car Company": "Jaguar",
             "Country of Car": "United Kingdom",
-            "Car Model": "Jaguar D-Type"
+            "Car Model": "Jaguar D-Type",
+            "image": "https://freeimage.host/i/JMYWgmF"
         },
         "1958": {
             "Winners": "Olivier Gendebien and Phil Hill",
@@ -215,7 +240,8 @@
             "Racer Nationality": "Gendebien (Belgian), Hill (American)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 250TR/58"
+            "Car Model": "Ferrari 250TR/58",
+            "image": "https://freeimage.host/i/JMYW6Xa"
         },
         "1959": {
             "Winners": "Carroll Shelby and Roy Salvadori",
@@ -223,7 +249,8 @@
             "Racer Nationality": "Shelby (American), Salvadori (British)",
             "Car Company": "Aston Martin",
             "Country of Car": "United Kingdom",
-            "Car Model": "Aston Martin DBR1"
+            "Car Model": "Aston Martin DBR1",
+            "image": "https://freeimage.host/i/JMYWPLJ"
         }
     },
     "1960s": {
@@ -233,7 +260,8 @@
             "Racer Nationality": "Gendebien (Belgian), Frère (Belgian)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 250TR/59"
+            "Car Model": "Ferrari 250TR/59",
+            "image": "https://freeimage.host/i/JMYWsqv"
         },
         "1961": {
             "Winners": "Olivier Gendebien and Phil Hill",
@@ -241,7 +269,8 @@
             "Racer Nationality": "Gendebien (Belgian), Hill (American)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 250TRI/61"
+            "Car Model": "Ferrari 250TRI/61",
+            "image": "https://freeimage.host/i/JMYWL1R"
         },
         "1962": {
             "Winners": "Phil Hill and Olivier Gendebien",
@@ -249,7 +278,8 @@
             "Racer Nationality": "Hill (American), Gendebien (Belgian)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 330 TRI/LM"
+            "Car Model": "Ferrari 330 TRI/LM",
+            "image": "https://freeimage.host/i/JMYWQgp"
         },
         "1963": {
             "Winners": "Ludovico Scarfiotti and Lorenzo Bandini",
@@ -257,7 +287,8 @@
             "Racer Nationality": "Scarfiotti (Italian), Bandini (Italian)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 250P"
+            "Car Model": "Ferrari 250P",
+            "image": "https://freeimage.host/i/JMYWtdN"
         },
         "1964": {
             "Winners": "Jean Guichet and Nino Vaccarella",
@@ -265,7 +296,8 @@
             "Racer Nationality": "Guichet (French), Vaccarella (Italian)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 275P"
+            "Car Model": "Ferrari 275P",
+            "image": "https://freeimage.host/i/JMYWD7I"
         },
         "1965": {
             "Winners": "Jochen Rindt and Masten Gregory",
@@ -273,7 +305,8 @@
             "Racer Nationality": "Rindt (Austrian), Gregory (American)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 250LM"
+            "Car Model": "Ferrari 250LM",
+            "image": "https://freeimage.host/i/JMYWbet"
         },
         "1966": {
             "Winners": "Bruce McLaren and Chris Amon",
@@ -281,7 +314,8 @@
             "Racer Nationality": "McLaren (New Zealander), Amon (New Zealander)",
             "Car Company": "Ford",
             "Country of Car": "United States",
-            "Car Model": "Ford GT40 Mk II"
+            "Car Model": "Ford GT40 Mk II",
+            "image": "https://freeimage.host/i/JMYWmmX"
         },
         "1967": {
             "Winners": "Dan Gurney and A.J. Foyt",
@@ -289,7 +323,8 @@
             "Racer Nationality": "Gurney (American), Foyt (American)",
             "Car Company": "Ford",
             "Country of Car": "United States",
-            "Car Model": "Ford GT40 Mk IV"
+            "Car Model": "Ford GT40 Mk IV",
+            "image": "https://freeimage.host/i/JMYWyIn"
         },
         "1968": {
             "Winners": "Pedro Rodríguez and Lucien Bianchi",
@@ -297,7 +332,8 @@
             "Racer Nationality": "Rodríguez (Mexican), Bianchi (Belgian)",
             "Car Company": "Ford",
             "Country of Car": "United States",
-            "Car Model": "Ford GT40 Mk I"
+            "Car Model": "Ford GT40 Mk I",
+            "image": "https://freeimage.host/i/JMYX9Xs"
         },
         "1969": {
             "Winners": "Jacky Ickx and Jackie Oliver",
@@ -305,7 +341,8 @@
             "Racer Nationality": "Ickx (Belgian), Oliver (British)",
             "Car Company": "Ford",
             "Country of Car": "United States",
-            "Car Model": "Ford GT40 Mk I"
+            "Car Model": "Ford GT40 Mk I",
+            "image": "https://freeimage.host/i/JMYXHLG"
         }
     },
     "1970s": {
@@ -315,7 +352,8 @@
             "Racer Nationality": "Herrmann (German), Attwood (British)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 917K"
+            "Car Model": "Porsche 917K",
+            "image": "https://freeimage.host/i/JMYX214"
         },
         "1971": {
             "Winners": "Helmut Marko and Gijs van Lennep",
@@ -323,7 +361,8 @@
             "Racer Nationality": "Marko (Austrian), van Lennep (Dutch)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 917K"
+            "Car Model": "Porsche 917K",
+            "image": "https://freeimage.host/i/JMYX3rl"
         },
         "1972": {
             "Winners": "Henri Pescarolo and Graham Hill",
@@ -331,7 +370,8 @@
             "Racer Nationality": "Pescarolo (French), Hill (British)",
             "Car Company": "Matra-Simca",
             "Country of Car": "France",
-            "Car Model": "Matra-Simca MS670"
+            "Car Model": "Matra-Simca MS670",
+            "image": "https://freeimage.host/i/JMYXK22"
         },
         "1973": {
             "Winners": "Henri Pescarolo and Gérard Larrousse",
@@ -339,7 +379,8 @@
             "Racer Nationality": "Pescarolo (French), Larrousse (French)",
             "Car Company": "Matra-Simca",
             "Country of Car": "France",
-            "Car Model": "Matra-Simca MS670B"
+            "Car Model": "Matra-Simca MS670B",
+            "image": "https://freeimage.host/i/JMYXf7S"
         },
         "1974": {
             "Winners": "Henri Pescarolo and Gérard Larrousse",
@@ -347,7 +388,8 @@
             "Racer Nationality": "Pescarolo (French), Larrousse (French)",
             "Car Company": "Matra-Simca",
             "Country of Car": "France",
-            "Car Model": "Matra-Simca MS670C"
+            "Car Model": "Matra-Simca MS670C",
+            "image": "https://freeimage.host/i/JMYXqk7"
         },
         "1975": {
             "Winners": "Jacky Ickx and Derek Bell",
@@ -355,7 +397,8 @@
             "Racer Nationality": "Ickx (Belgian), Bell (British)",
             "Car Company": "Mirage",
             "Country of Car": "United Kingdom",
-            "Car Model": "Mirage GR8"
+            "Car Model": "Mirage GR8",
+            "image": "https://freeimage.host/i/JMYXBp9"
         },
         "1976": {
             "Winners": "Jacky Ickx and Gijs van Lennep",
@@ -363,7 +406,8 @@
             "Racer Nationality": "Ickx (Belgian), van Lennep (Dutch)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 936"
+            "Car Model": "Porsche 936",
+            "image": "https://freeimage.host/i/JMYXnIe"
         },
         "1977": {
             "Winners": "Jacky Ickx and Hurley Haywood",
@@ -371,7 +415,8 @@
             "Racer Nationality": "Ickx (Belgian), Haywood (American)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 936"
+            "Car Model": "Porsche 936",
+            "image": "https://freeimage.host/i/JMYXohu"
         },
         "1978": {
             "Winners": "Jean-Pierre Jaussaud and Didier Pironi",
@@ -379,7 +424,8 @@
             "Racer Nationality": "Jaussaud (French), Pironi (French)",
             "Car Company": "Renault-Alpine",
             "Country of Car": "France",
-            "Car Model": "Renault-Alpine A442B"
+            "Car Model": "Renault-Alpine A442B",
+            "image": "https://freeimage.host/i/JMYXxLb"
         },
         "1979": {
             "Winners": "Klaus Ludwig and Bill Whittington",
@@ -387,7 +433,8 @@
             "Racer Nationality": "Ludwig (German), Whittington (American)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 935 K3"
+            "Car Model": "Porsche 935 K3",
+            "image": "https://freeimage.host/i/JMYXIBj"
         }
     },
     "1980s": {
@@ -397,7 +444,8 @@
             "Racer Nationality": "Rondeau (French), Jaussaud (French)",
             "Car Company": "Rondeau",
             "Country of Car": "France",
-            "Car Model": "Rondeau M379B"
+            "Car Model": "Rondeau M379B",
+            "image": "https://freeimage.host/i/JMYXTEx"
         },
         "1981": {
             "Winners": "Jacky Ickx and Derek Bell",
@@ -405,7 +453,8 @@
             "Racer Nationality": "Ickx (Belgian), Bell (British)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 936/81"
+            "Car Model": "Porsche 936/81",
+            "image": "https://freeimage.host/i/JMYXurQ"
         },
         "1982": {
             "Winners": "Jacky Ickx and Derek Bell",
@@ -413,7 +462,8 @@
             "Racer Nationality": "Ickx (Belgian), Bell (British)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 956"
+            "Car Model": "Porsche 956",
+            "image": "https://freeimage.host/i/JMYX5YB"
         },
         "1983": {
             "Winners": "Vern Schuppan, Al Holbert, and Hurley Haywood",
@@ -421,7 +471,8 @@
             "Racer Nationality": "Schuppan (Australian), Holbert (American), Haywood (American)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 956"
+            "Car Model": "Porsche 956",
+            "image": "https://freeimage.host/i/JMYX7kP"
         },
         "1984": {
             "Winners": "Klaus Ludwig, Henri Pescarolo, and Stefan Johansson",
@@ -429,7 +480,8 @@
             "Racer Nationality": "Ludwig (German), Pescarolo (French), Johansson (Swedish)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 956B"
+            "Car Model": "Porsche 956B",
+            "image": "https://freeimage.host/i/JMYXYp1"
         },
         "1985": {
             "Winners": "Klaus Ludwig, Paolo Barilla, and \"John Winter\" (real name Louis Krages)",
@@ -437,7 +489,8 @@
             "Racer Nationality": "Ludwig (German), Barilla (Italian), \"Winter\" (German)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 956B"
+            "Car Model": "Porsche 956B",
+            "image": "https://freeimage.host/i/JMYXYp1"
         },
         "1986": {
             "Winners": "Derek Bell, Hans-Joachim Stuck, and Al Holbert",
@@ -445,7 +498,8 @@
             "Racer Nationality": "Bell (British), Stuck (German), Holbert (American)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 962C"
+            "Car Model": "Porsche 962C",
+            "image": "https://freeimage.host/i/JMYXlhg"
         },
         "1987": {
             "Winners": "Derek Bell, Hans-Joachim Stuck, and Al Holbert",
@@ -453,7 +507,8 @@
             "Racer Nationality": "Bell (British), Stuck (German), Holbert (American)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 962C"
+            "Car Model": "Porsche 962C",
+            "image": "https://freeimage.host/i/JMYX0Qa"
         },
         "1988": {
             "Winners": "Jan Lammers, Johnny Dumfries, and Andy Wallace",
@@ -461,7 +516,8 @@
             "Racer Nationality": "Lammers (Dutch), Dumfries (British), Wallace (British)",
             "Car Company": "Jaguar",
             "Country of Car": "United Kingdom",
-            "Car Model": "Jaguar XJR-9LM"
+            "Car Model": "Jaguar XJR-9LM",
+            "image": "https://freeimage.host/i/JMYXECJ"
         },
         "1989": {
             "Winners": "Jochen Mass, Manuel Reuter, and Stanley Dickens",
@@ -469,7 +525,8 @@
             "Racer Nationality": "Mass (German), Reuter (German), Dickens (Swedish)",
             "Car Company": "Sauber-Mercedes",
             "Country of Car": "Germany",
-            "Car Model": "Sauber-Mercedes C9"
+            "Car Model": "Sauber-Mercedes C9",
+            "image": "https://i.postimg.cc/kXnZDRNc/Screen-Shot-2024-03-01-at-10-09-58-AM-removebg-preview.png"
         }
     },
     "1990s": {
@@ -479,7 +536,8 @@
             "Racer Nationality": "Nielsen (Danish), Cobb (American), Brundle (British)",
             "Car Company": "Jaguar",
             "Country of Car": "United Kingdom",
-            "Car Model": "Jaguar XJR-12"
+            "Car Model": "Jaguar XJR-12",
+            "image": "https://freeimage.host/i/JMYXGEv"
         },
         "1991": {
             "Winners": "Volker Weidler, Johnny Herbert, and Bertrand Gachot",
@@ -487,7 +545,8 @@
             "Racer Nationality": "Weidler (German), Herbert (British), Gachot (Belgian)",
             "Car Company": "Mazda",
             "Country of Car": "Japan",
-            "Car Model": "Mazda 787B"
+            "Car Model": "Mazda 787B",
+            "image": "https://freeimage.host/i/JMYXM4R"
         },
         "1992": {
             "Winners": "Derek Warwick, Yannick Dalmas, and Mark Blundell",
@@ -495,7 +554,8 @@
             "Racer Nationality": "Warwick (British), Dalmas (French), Blundell (British)",
             "Car Company": "Peugeot",
             "Country of Car": "France",
-            "Car Model": "Peugeot 905"
+            "Car Model": "Peugeot 905",
+            "image": "https://freeimage.host/i/JMYXW2p"
         },
         "1993": {
             "Winners": "Geoff Brabham, Christophe Bouchut, and Éric Hélary",
@@ -503,7 +563,8 @@
             "Racer Nationality": "Brabham (Australian), Bouchut (French), Hélary (French)",
             "Car Company": "Peugeot",
             "Country of Car": "France",
-            "Car Model": "Peugeot 905 Evo 1B"
+            "Car Model": "Peugeot 905 Evo 1B",
+            "image": "https://freeimage.host/i/JMYXXYN"
         },
         "1994": {
             "Winners": "Yannick Dalmas, Hurley Haywood, and Mauro Baldi",
@@ -511,7 +572,8 @@
             "Racer Nationality": "Dalmas (French), Haywood (American), Baldi (Italian)",
             "Car Company": "Dauer",
             "Country of Car": "Germany",
-            "Car Model": "Dauer 962 LM"
+            "Car Model": "Dauer 962 LM",
+            "image": "https://freeimage.host/i/JMYXhvI"
         },
         "1995": {
             "Winners": "Yannick Dalmas, JJ Lehto, and Masanori Sekiya",
@@ -519,7 +581,8 @@
             "Racer Nationality": "Dalmas (French), Lehto (Finnish), Sekiya (Japanese)",
             "Car Company": "McLaren",
             "Country of Car": "United Kingdom",
-            "Car Model": "McLaren F1 GTR"
+            "Car Model": "McLaren F1 GTR",
+            "image": "https://freeimage.host/i/JMYXjpt"
         },
         "1996": {
             "Winners": "Manuel Reuter, Davy Jones, and Alexander Wurz",
@@ -527,7 +590,8 @@
             "Racer Nationality": "Reuter (German), Jones (American), Wurz (Austrian)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche WSC-95"
+            "Car Model": "Porsche WSC-95",
+            "image": "https://freeimage.host/i/JMYXNTX"
         },
         "1997": {
             "Winners": "Michele Alboreto, Stefan Johansson, and Tom Kristensen",
@@ -535,7 +599,8 @@
             "Racer Nationality": "Alboreto (Italian), Johansson (Swedish), Kristensen (Danish)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "TWR Porsche WSC-95"
+            "Car Model": "TWR Porsche WSC-95",
+            "image": "https://freeimage.host/i/JMYXOjn"
         },
         "1998": {
             "Winners": "Laurent Aiello, Allan McNish, and Stéphane Ortelli",
@@ -543,7 +608,8 @@
             "Racer Nationality": "Aiello (French), McNish (British), Ortelli (Monegasque)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 911 GT1"
+            "Car Model": "Porsche 911 GT1",
+            "image": "https://freeimage.host/i/JMYXeQs"
         },
         "1999": {
             "Winners": "Pierluigi Martini, Yannick Dalmas, and Joachim Winkelhock",
@@ -551,7 +617,8 @@
             "Racer Nationality": "Martini (Italian), Dalmas (French), Winkelhock (German)",
             "Car Company": "BMW",
             "Country of Car": "Germany",
-            "Car Model": "BMW V12 LMR"
+            "Car Model": "BMW V12 LMR",
+            "image": "https://freeimage.host/i/JMYXvCG"
         }
     },
     "2000s": {
@@ -561,7 +628,8 @@
             "Racer Nationality": "Biela (German), Kristensen (Danish), Pirro (Italian)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R8"
+            "Car Model": "Audi R8",
+            "image": "https://freeimage.host/i/JMYX8Gf"
         },
         "2001": {
             "Winners": "Frank Biela, Tom Kristensen, and Emanuele Pirro",
@@ -569,7 +637,8 @@
             "Racer Nationality": "Biela (German), Kristensen (Danish), Pirro (Italian)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R8"
+            "Car Model": "Audi R8",
+            "image": "https://freeimage.host/i/JMYXS44"
         },
         "2002": {
             "Winners": "Frank Biela, Tom Kristensen, and Emanuele Pirro",
@@ -577,7 +646,8 @@
             "Racer Nationality": "Biela (German), Kristensen (Danish), Pirro (Italian)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R8"
+            "Car Model": "Audi R8",
+            "image": "https://freeimage.host/i/JMYXg3l"
         },
         "2003": {
             "Winners": "Tom Kristensen, Rinaldo Capello, and Guy Smith",
@@ -585,7 +655,8 @@
             "Racer Nationality": "Kristensen (Danish), Capello (Italian), Smith (British)",
             "Car Company": "Bentley",
             "Country of Car": "United Kingdom",
-            "Car Model": "Bentley Speed 8"
+            "Car Model": "Bentley Speed 8",
+            "image": "https://freeimage.host/i/JMYXra2"
         },
         "2004": {
             "Winners": "Seiji Ara, Tom Kristensen, and Rinaldo Capello",
@@ -593,7 +664,8 @@
             "Racer Nationality": "Ara (Japanese), Kristensen (Danish), Capello (Italian)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R8"
+            "Car Model": "Audi R8",
+            "image": "https://freeimage.host/i/JMYX4vS"
         },
         "2005": {
             "Winners": "JJ Lehto, Marco Werner, and Tom Kristensen",
@@ -601,7 +673,8 @@
             "Racer Nationality": "Lehto (Finnish), Werner (German), Kristensen (Danish)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R8"
+            "Car Model": "Audi R8",
+            "image": "https://freeimage.host/i/JMYX6y7"
         },
         "2006": {
             "Winners": "Marco Werner, Frank Biela, and Emanuele Pirro",
@@ -609,7 +682,8 @@
             "Racer Nationality": "Werner (German), Biela (German), Pirro (Italian)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R10 TDI"
+            "Car Model": "Audi R10 TDI",
+            "image": "https://freeimage.host/i/JMYXiu9"
         },
         "2007": {
             "Winners": "Frank Biela, Emanuele Pirro, and Marco Werner",
@@ -617,7 +691,8 @@
             "Racer Nationality": "Biela (German), Pirro (Italian), Werner (German)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R10 TDI"
+            "Car Model": "Audi R10 TDI",
+            "image": "https://freeimage.host/i/JMYXsje"
         },
         "2008": {
             "Winners": "Tom Kristensen, Rinaldo Capello, and Allan McNish",
@@ -625,7 +700,8 @@
             "Racer Nationality": "Kristensen (Danish), Capello (Italian), McNish (British)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R10 TDI"
+            "Car Model": "Audi R10 TDI",
+            "image": "https://freeimage.host/i/JMYXLZu"
         },
         "2009": {
             "Winners": "David Brabham, Marc Gené, and Alexander Wurz",
@@ -633,7 +709,8 @@
             "Racer Nationality": "Brabham (Australian), Gené (Spanish), Wurz (Austrian)",
             "Car Company": "Peugeot",
             "Country of Car": "France",
-            "Car Model": "Peugeot 908 HDi FAP"
+            "Car Model": "Peugeot 908 HDi FAP",
+            "image": "https://freeimage.host/i/JMYXZCb"
         }
     },
     "2010s": {
@@ -643,7 +720,8 @@
             "Racer Nationality": "Rockenfeller (German), Bernhard (German), Dumas (French)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R15 TDI plus"
+            "Car Model": "Audi R15 TDI plus",
+            "image": "https://freeimage.host/i/JMYXtGj"
         },
         "2011": {
             "Winners": "Marcel Fässler, André Lotterer, and Benoît Tréluyer",
@@ -651,7 +729,8 @@
             "Racer Nationality": "Fässler (Swiss), Lotterer (German), Tréluyer (French)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R18 TDI"
+            "Car Model": "Audi R18 TDI",
+            "image": "https://freeimage.host/i/JMYXD6x"
         },
         "2012": {
             "Winners": "Marcel Fässler, André Lotterer, and Benoît Tréluyer",
@@ -659,7 +738,8 @@
             "Racer Nationality": "Fässler (Swiss), Lotterer (German), Tréluyer (French)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R18 e-tron quattro"
+            "Car Model": "Audi R18 e-tron quattro",
+            "image": "https://freeimage.host/i/JMYXpaV"
         },
         "2013": {
             "Winners": "Tom Kristensen, Allan McNish, and Loïc Duval",
@@ -667,7 +747,8 @@
             "Racer Nationality": "Kristensen (Danish), McNish (British), Duval (French)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R18 e-tron quattro"
+            "Car Model": "Audi R18 e-tron quattro",
+            "image": "https://freeimage.host/i/JMYhdwF"
         },
         "2014": {
             "Winners": "Marcel Fässler, André Lotterer, and Benoît Tréluyer",
@@ -675,7 +756,8 @@
             "Racer Nationality": "Fässler (Swiss), Lotterer (German), Tréluyer (French)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R18 e-tron quattro"
+            "Car Model": "Audi R18 e-tron quattro",
+            "image": "https://freeimage.host/i/JMYhdwF"
         },
         "2015": {
             "Winners": "Marcel Fässler, André Lotterer, and Benoît Tréluyer",
@@ -683,7 +765,8 @@
             "Racer Nationality": "Fässler (Swiss), Lotterer (German), Tréluyer (French)",
             "Car Company": "Audi",
             "Country of Car": "Germany",
-            "Car Model": "Audi R18 e-tron quattro"
+            "Car Model": "Audi R18 e-tron quattro",
+            "image": "https://freeimage.host/i/JMYhJu1"
         },
         "2016": {
             "Winners": "Romain Dumas, Neel Jani, and Marc Lieb",
@@ -691,7 +774,8 @@
             "Racer Nationality": "Dumas (French), Jani (Swiss), Lieb (German)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 919 Hybrid"
+            "Car Model": "Porsche 919 Hybrid",
+            "image": "https://freeimage.host/i/JMYhdwF"
         },
         "2017": {
             "Winners": "Timo Bernhard, Brendon Hartley, and Earl Bamber",
@@ -699,7 +783,8 @@
             "Racer Nationality": "Bernhard (German), Hartley (New Zealander), Bamber (New Zealander)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Porsche 919 Hybrid"
+            "Car Model": "Porsche 919 Hybrid",
+            "image": "https://freeimage.host/i/JMYh2Zg"
         },
         "2018": {
             "Winners": "Fernando Alonso, Sébastien Buemi, and Kazuki Nakajima",
@@ -707,7 +792,8 @@
             "Racer Nationality": "Alonso (Spanish), Buemi (Swiss), Nakajima (Japanese)",
             "Car Company": "Toyota",
             "Country of Car": "Japan",
-            "Car Model": "Toyota TS050 Hybrid"
+            "Car Model": "Toyota TS050 Hybrid",
+            "image": "https://freeimage.host/i/JMYhFna"
         },
         "2019": {
             "Winners": "Sébastien Buemi, Kazuki Nakajima, and Fernando Alonso",
@@ -715,7 +801,8 @@
             "Racer Nationality": "Buemi (Swiss), Nakajima (Japanese), Alonso (Spanish)",
             "Car Company": "Toyota",
             "Country of Car": "Japan",
-            "Car Model": "Toyota TS050 Hybrid"
+            "Car Model": "Toyota TS050 Hybrid",
+            "image": "https://freeimage.host/i/JMYhFna"
         }
     },
     "2020s": {
@@ -725,7 +812,8 @@
             "Racer Nationality": "Buemi (Swiss), Nakajima (Japanese), Hartley (New Zealander)",
             "Car Company": "Toyota",
             "Country of Car": "Japan",
-            "Car Model": "Toyota TS050 Hybrid"
+            "Car Model": "Toyota TS050 Hybrid",
+            "image": "https://freeimage.host/i/JMYhFna"
         },
         "2021": {
             "Winners": "Mike Conway, Kamui Kobayashi, and José María López",
@@ -733,7 +821,8 @@
             "Racer Nationality": "Conway (British), Kobayashi (Japanese), López (Argentinian)",
             "Car Company": "Toyota",
             "Country of Car": "Japan",
-            "Car Model": "Toyota GR010 Hybrid"
+            "Car Model": "Toyota GR010 Hybrid",
+            "image": "https://i.postimg.cc/G2vD02H8/Screen-Shot-2024-03-01-at-10-21-12-AM-removebg-preview.png"
         },
         "2022": {
             "Winners": "Sébastien Buemi, Kazuki Nakajima, and Brendon Hartley",
@@ -741,7 +830,8 @@
             "Racer Nationality": "Buemi (Swiss), Nakajima (Japanese), Hartley (New Zealander)",
             "Car Company": "Toyota",
             "Country of Car": "Japan",
-            "Car Model": "Toyota GR010 Hybrid"
+            "Car Model": "Toyota GR010 Hybrid",
+            "image": "https://i.postimg.cc/G2vD02H8/Screen-Shot-2024-03-01-at-10-21-12-AM-removebg-preview.png"
         },
         "2023": {
             "Winners": "James Calado, Antonio Giovinazzi, Alessandro Pier Guidi",
@@ -749,7 +839,8 @@
             "Racer Nationality": "Calado (British), Giovinazzi (Italian), Pier Guidi (Italian)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
-            "Car Model": "Ferrari 499P"
+            "Car Model": "Ferrari 499P",
+            "image": "https://i.postimg.cc/qMF2C9V7/removal-ai-c1e90036-358a-4fd4-b92d-c25fe5a826f9-screen-shot-2024-03-01-at-10-26-43-am.png"
         },
         "2024": {
             "Year": "2024",
