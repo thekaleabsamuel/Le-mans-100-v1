@@ -30,25 +30,25 @@
         {
             "Winners": "Robert Bloch and André Rossignol",
             "Year": 1926,
-            "Racer Nationality": "Bloch (Swiss), Rossignol (French)",
+            "Racer Nationality": "Bloch (French), Rossignol (French)",
             "Car Company": "Lorraine-Dietrich",
             "Country of Car": "France",
             "Car Model": "Lorraine-Dietrich B3-6",
             "image": "https://iili.io/JMYWAOX.png"
         },
         {
-            "Winners": "Robert Bloch and André Rossignol",
+            "Winners": "Dudley Benjafield and Sammy Davis",
             "Year": 1927,
-            "Racer Nationality": "Bloch (Swiss), Rossignol (French)",
-            "Car Company": "Lorraine-Dietrich",
-            "Country of Car": "France",
-            "Car Model": "Lorraine-Dietrich B3-6",
+            "Racer Nationality": "Benjafield (British), Davis (British)",
+            "Car Company": "Bentley",
+            "Country of Car": "United Kingdom",
+            "Car Model": "Bentley 3 Litre Speed",
             "image": "https://iili.io/JMYWasf.png"
         },
         {
             "Winners": "Woolf Barnato and Bernard Rubin",
             "Year": 1928,
-            "Racer Nationality": "Barnato (British), Rubin (British)",
+            "Racer Nationality": "Barnato (British), Rubin (Australian)",
             "Car Company": "Bentley",
             "Country of Car": "United Kingdom",
             "Car Model": "Bentley 4½ Litre",
@@ -120,13 +120,8 @@
             "image": "https://iili.io/JMYWhzu.png"
         },
         {
-            "Winners": "Jean-Pierre Wimille and Raymond Sommer",
-            "Year": 1936,
-            "Racer Nationality": "Wimille (French), Sommer (French)",
-            "Car Company": "Bugatti",
-            "Country of Car": "France",
-            "Car Model": "Bugatti Type 57G",
-            "image": "https://iili.io/JMYWjWb.png"
+            "Note": "The 1936 LeMans was not held as a result of worker strikes in France.",
+            "Year": 1936
         },
         {
             "Winners": "Jean-Pierre Wimille and Robert Benoist",
@@ -157,6 +152,9 @@
         }
     ],
     "1940s": [
+        {
+            "Note": "Due to the events of World War 2, only one race was held at the end of the decade."
+        },
         {
             "Winners": "Luigi Chinetti and Lord Selsdon",
             "Year": 1949,
@@ -301,9 +299,9 @@
             "image": "https://iili.io/JMYWD7I.png"
         },
         {
-            "Winners": "Jochen Rindt and Masten Gregory",
+            "Winners": "Jochen Rindt, Masten Gregory and Ed Hugus",
             "Year": 1965,
-            "Racer Nationality": "Rindt (Austrian), Gregory (American)",
+            "Racer Nationality": "Rindt (Austrian), Gregory (American), Hugus (American)",
             "Car Company": "Ferrari",
             "Country of Car": "Italy",
             "Car Model": "Ferrari 250LM",
@@ -411,9 +409,9 @@
             "image": "https://iili.io/JMYXnIe.png"
         },
         {
-            "Winners": "Jacky Ickx and Hurley Haywood",
+            "Winners": "Jacky Ickx, Hurley Haywood and Jürgen Barth",
             "Year": 1977,
-            "Racer Nationality": "Ickx (Belgian), Haywood (American)",
+            "Racer Nationality": "Ickx (Belgian), Haywood (American), Barth (German)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
             "Car Model": "Porsche 936",
@@ -429,9 +427,9 @@
             "image": "https://iili.io/JMYXxLb.png"
         },
         {
-            "Winners": "Klaus Ludwig and Bill Whittington",
+            "Winners": "Klaus Ludwig, Bill Whittington and Don Whittington",
             "Year": 1979,
-            "Racer Nationality": "Ludwig (German), Whittington (American)",
+            "Racer Nationality": "Ludwig (German), Bill and Don Whittington (American)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
             "Car Model": "Porsche 935 K3",
@@ -476,9 +474,9 @@
             "image": "https://iili.io/JMYX7kP.png"
         },
         {
-            "Winners": "Klaus Ludwig, Henri Pescarolo, and Stefan Johansson",
+            "Winners": "Klaus Ludwig and Henri Pescarolo",
             "Year": 1984,
-            "Racer Nationality": "Ludwig (German), Pescarolo (French), Johansson (Swedish)",
+            "Racer Nationality": "Ludwig (German) and Pescarolo (French)",
             "Car Company": "Porsche",
             "Country of Car": "Germany",
             "Car Model": "Porsche 956B",
@@ -541,9 +539,9 @@
             "image": "https://iili.io/JMYXGEv.png"
         },
         {
-            "Winners": "Volker Weidler, Johnny Herbert, and Bertrand Gachot",
+            "Winners": "Volker Weidler, Johnny Herbert, and Volker Weidler",
             "Year": 1991,
-            "Racer Nationality": "Weidler (German), Herbert (British), Gachot (Belgian)",
+            "Racer Nationality": "Weidler (German), Herbert (British), Weidler (German)",
             "Car Company": "Mazda",
             "Country of Car": "Japan",
             "Car Model": "Mazda 787B",
@@ -761,12 +759,12 @@
             "image": "https://iili.io/JMX6GhQ.png"
         },
         {
-            "Winners": "Marcel Fässler, André Lotterer, and Benoît Tréluyer",
+            "Winners": "Earl Bamber, Nico Hülkenberg, and Nick Tandy",
             "Year": 2015,
-            "Racer Nationality": "Fässler (Swiss), Lotterer (German), Tréluyer (French)",
-            "Car Company": "Audi",
+            "Racer Nationality": "Bamber (New Zealander), Hülkenberg (German), Tandy (British)",
+            "Car Company": "Porsche",
             "Country of Car": "Germany",
-            "Car Model": "Audi R18 e-tron quattro",
+            "Car Model": "Porsche 919 Hybrid",
             "image": "https://iili.io/JMYhJu1.png"
         },
         {
@@ -826,9 +824,9 @@
             "image": "https://i.postimg.cc/G2vD02H8/Screen-Shot-2024-03-01-at-10-21-12-AM-removebg-preview.png"
         },
         {
-            "Winners": "Sébastien Buemi, Kazuki Nakajima, and Brendon Hartley",
+            "Winners": "Sébastien Buemi, Ryō Hirakawa, and Brendon Hartley",
             "Year": 2022,
-            "Racer Nationality": "Buemi (Swiss), Nakajima (Japanese), Hartley (New Zealander)",
+            "Racer Nationality": "Buemi (Swiss), Hirakawa (Japanese), Hartley (New Zealander)",
             "Car Company": "Toyota",
             "Country of Car": "Japan",
             "Car Model": "Toyota GR010 Hybrid",

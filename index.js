@@ -1,5 +1,6 @@
 function appendTimeline(cars) {
   const timeLine = document.querySelector("#car-timeline")
+  timeLine.innerHTML= ''
   console.log(cars)
   cars.map(cars => {
     const addCar = document.createElement("img")
