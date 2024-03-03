@@ -121,7 +121,8 @@
         },
         {
             "Note": "The 1936 LeMans was not held as a result of worker strikes in France.",
-            "Year": 1936
+            "Year": 1936,
+            "image": ""
         },
         {
             "Winners": "Jean-Pierre Wimille and Robert Benoist",
@@ -153,7 +154,8 @@
     ],
     "1940s": [
         {
-            "Note": "Due to the events of World War 2, only one race was held at the end of the decade."
+            "Note": "Due to the events of World War 2, only one race was held at the end of the decade.",
+            "image": ""
         },
         {
             "Winners": "Luigi Chinetti and Lord Selsdon",
@@ -213,7 +215,8 @@
         },
         {
             "Note": "The 1955 Le Mans race was marred by a tragic accident, and no winner was officially declared.",
-            "Year": 1955
+            "Year": 1955,
+            "image": ""
         },
         {
             "Winners": "Ron Flockhart and Ninian Sanderson",
@@ -843,7 +846,8 @@
         },
         {
             "Year": "2024",
-            "Note": "The 2024 LeMans race has not been held yet, but is expected to be on June 15th. New manufacturers like Lamborghini and Alpine are planned to join the race in the official WEC."
+            "Note": "The 2024 LeMans race has not been held yet, but is expected to be on June 15th. New manufacturers like Lamborghini and Alpine are planned to join the race in the official WEC.",
+            "image": ""
         }
     ]
 }
