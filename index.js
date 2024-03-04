@@ -1,14 +1,6 @@
 function appendTimeline(cars) {
-  const timeLine = document.querySelector("#car-timeline")
-  const carDetails = document.querySelector("#car-details")
   timeLine.innerHTML = ''
   carDetails.innerHTML = ''
-  timeLine.addEventListener('wheel', () => {
-    timeLine.scrollLeft += 10;
-  })
-  timeLine.addEventListener('wheel', () => {
-    timeLine.scrollLeft -= 10;
-  })
   cars.forEach(cars => {
     const addCar = document.createElement("img")
     addCar.src = cars.image
@@ -24,6 +16,8 @@ function appendTimeline(cars) {
     carDetails.append(disYear, carModel, Racer)
   })
 }
+const carDetails = document.querySelector("#car-details")
+const timeLine = document.querySelector("#car-timeline")
 const nav100 = document.querySelector("#all")
 const nav1920 = document.querySelector("#the1920")
 const nav30 = document.querySelector("#the30")
@@ -129,27 +123,10 @@ function grab100() {
   grab2020s()
 }
 
-// const decades = ['1920', '1930', '1940', '1950', '1960', '1970', '1980', '1990', '2000', '2010', '2020'];
-
-// decades.forEach(decade => {
-//  document.querySelector(`#the${decade}`).addEventListener('click', () => grabDecade(decade));
-// });
-
-// function grabDecade(decade) {
-//   fetch(`http://localhost:3000/${decade}s`)
-//      .then(r => r.json())
-//      .then(cars => { appendTimeline(cars) })
-//      .catch(error => console.error('Error:', error));
-//  }
-
-// nav1920.addEventListener('click', () => grabDecade('1920'));
-// nav30.addEventListener('click', () => grabDecade('1930'));
-// nav40.addEventListener('click', () => grabDecade('1940'));
-// nav50.addEventListener('click', () => grabDecade('1950'));
-// nav60.addEventListener('click', () => grabDecade('1960'));
-// nav70.addEventListener('click', () => grabDecade('1970'));
-// nav80.addEventListener('click', () => grabDecade('1980'));
-// nav90.addEventListener('click', () => grabDecade('1990'));
-// nav00.addEventListener('click', () => grabDecade('2000'));
-// nav10.addEventListener('click', () => grabDecade('2010'));
-// nav2020.addEventListener('click', () => grabDecade('2020'));
+timeLine.addEventListener('keydown', function (event) {
+  if (event.key === 'ArrowRight') {
+    timeLine.scrollLeft += 10;
+  } else if (event.key === 'ArrowLeft') {
+    timeLine.scrollLeft -= 10;
+  }
+});
