@@ -8,12 +8,11 @@ function appendTimeline(cars) {
     const addCar = document.createElement("img");
     addCar.src = cars.image;
     addCar.addEventListener('mouseenter', function () {
-      detailsDiv.style.display = 'block'; // Show the details div on mouse enter
+      detailsDiv.style.display = 'block';
     });
     addCar.addEventListener('mouseleave', function () {
-      detailsDiv.style.display = 'none'; // Hide the details div on mouse leave
+      detailsDiv.style.display = 'none';
     });
-
     const disYear = document.createElement("h2");
     const Racer = document.createElement("p");
     const carModel = document.createElement("p");
@@ -22,8 +21,8 @@ function appendTimeline(cars) {
     carModel.textContent = cars["Car Company"];
     detailsDiv.append(disYear, carModel, Racer);
 
-    // Append both the image and the details div to the timeLine
-    timeLine.append(addCar, detailsDiv);
+    timeLine.append(addCar);
+    carDetails.append(detailsDiv);
   });
 }
 

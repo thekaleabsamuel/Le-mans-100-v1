@@ -15,15 +15,21 @@ hr {
     border-radius: 3px;
 }
 
+#decades-navigation>h1:hover {
+    text-shadow: 5px white;
+}
+
 #decades-navigation>h1 {
     flex: 1;
     text-align: center;
     font-size: 1.75vw;
     background-color: #fc510b;
+    height: 100px;
+    line-height: 4;
 }
 
 #car-details {
-    display: none;
+    /* display: none; */
     overflow-x: auto;
 }
 
