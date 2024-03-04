@@ -1,41 +1,45 @@
 function appendTimeline(cars) {
   timeLine.innerHTML = '';
   cars.forEach(car => {
-    const detailsDiv = document.createElement("div");
-    detailsDiv.className = "car-details";
-    detailsDiv.style.display = 'none';
-
-    const addCar = document.createElement("img");
-    addCar.src = car.image;
-
-    const carAudio = new Audio(car.MP3);
-
-    addCar.addEventListener('mouseenter', function () {
-      detailsDiv.style.display = 'block';
-    });
-    addCar.addEventListener('mouseleave', function () {
-      detailsDiv.style.display = 'none';
-    });
-    addCar.addEventListener('click', function () {
-      carAudio.play().catch(function (error) {
-        console.log('Audio playback failed:', error);
-      });
-    });
-
-    const carNotes = document.createElement("p")
-    const disYear = document.createElement("h2");
-    const Racer = document.createElement("p");
-    const carModel = document.createElement("p");
-    carNotes.textContent = car.Note
-    disYear.textContent = car.Year;
-    Racer.textContent = car.Winners;
-    carModel.textContent = car["Car Model"];
-    detailsDiv.append(disYear, carModel, Racer, carNotes);
-
-    timeLine.append(disYear, addCar);
-    carDetails.append(detailsDiv);
+     const detailsDiv = document.createElement("div");
+     detailsDiv.className = "car-details";
+     detailsDiv.style.display = 'none';
+ 
+     const addCar = document.createElement("img");
+     addCar.src = car.image;
+ 
+     const carAudio = new Audio(car.MP3);
+ 
+     addCar.addEventListener('mouseenter', function () {
+       detailsDiv.style.display = 'block';
+     });
+     addCar.addEventListener('mouseleave', function () {
+       detailsDiv.style.display = 'none';
+     });
+     addCar.addEventListener('click', function () {
+       carAudio.play().catch(function (error) {
+         console.log('Audio playback failed:', error);
+       });
+     });
+ 
+     const carNotes = document.createElement("p");
+     const disYear = document.createElement("h2");
+     const Racer = document.createElement("p");
+     const carModel = document.createElement("p");
+     carNotes.textContent = car.Note;
+     disYear.textContent = car.Year;
+     Racer.textContent = car.Winners;
+ 
+     const country = car["Country of Car"];
+     const emoji = countryEmoji[country] || '❓';
+     carModel.textContent = car["Car Model"] + ' ' + emoji;
+ 
+     detailsDiv.append(disYear, carModel, Racer, carNotes);
+ 
+     timeLine.append(addCar); 
+     carDetails.append(detailsDiv); 
   });
-}
+ } 
 
 const carDetails = document.querySelector("#car-details");
 const timeLine = document.querySelector("#car-timeline");
