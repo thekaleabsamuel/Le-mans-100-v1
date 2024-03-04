@@ -4,7 +4,7 @@ function appendTimeline(cars) {
     const detailsDiv = document.createElement("div");
     detailsDiv.className = "car-details";
     detailsDiv.style.display = 'none';
-
+    
     const addCar = document.createElement("img");
     addCar.src = cars.image;
     addCar.addEventListener('mouseenter', function () {
@@ -21,7 +21,7 @@ function appendTimeline(cars) {
     carModel.textContent = cars["Car Company"];
     detailsDiv.append(disYear, carModel, Racer);
 
-    timeLine.append(addCar);
+    timeLine.append(disYear, addCar);
     carDetails.append(detailsDiv);
   });
 }
