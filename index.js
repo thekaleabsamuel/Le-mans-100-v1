@@ -1,21 +1,32 @@
 function appendTimeline(cars) {
-  timeLine.innerHTML = ''
-  carDetails.innerHTML = ''
+  timeLine.innerHTML = '';
   cars.forEach(cars => {
-    const addCar = document.createElement("img")
-    addCar.src = cars.image
-    const addNote = document.createElement("p")
-    addNote.textContent = cars.Note
-    timeLine.append(addCar)
-    const disYear = document.createElement("h2")
-    const Racer = document.createElement("p")
-    const carModel = document.createElement("p")
-    disYear.textContent = cars.Year
-    Racer.textContent = cars.Winners
-    carModel.textContent = cars["Car Company"]
-    carDetails.append(disYear, carModel, Racer)
-  })
+    const detailsDiv = document.createElement("div");
+    detailsDiv.className = "car-details";
+    detailsDiv.style.display = 'none';
+
+    const addCar = document.createElement("img");
+    addCar.src = cars.image;
+    addCar.addEventListener('mouseenter', function () {
+      detailsDiv.style.display = 'block'; // Show the details div on mouse enter
+    });
+    addCar.addEventListener('mouseleave', function () {
+      detailsDiv.style.display = 'none'; // Hide the details div on mouse leave
+    });
+
+    const disYear = document.createElement("h2");
+    const Racer = document.createElement("p");
+    const carModel = document.createElement("p");
+    disYear.textContent = cars.Year;
+    Racer.textContent = cars.Winners;
+    carModel.textContent = cars["Car Company"];
+    detailsDiv.append(disYear, carModel, Racer);
+
+    // Append both the image and the details div to the timeLine
+    timeLine.append(addCar, detailsDiv);
+  });
 }
+
 const carDetails = document.querySelector("#car-details")
 const timeLine = document.querySelector("#car-timeline")
 const nav100 = document.querySelector("#all")
@@ -123,10 +134,10 @@ function grab100() {
   grab2020s()
 }
 
-timeLine.addEventListener('keydown', function (event) {
+document.addEventListener('keydown', function (event) {
   if (event.key === 'ArrowRight') {
-    timeLine.scrollLeft += 10;
+    timeLine.scrollLeft += 100;
   } else if (event.key === 'ArrowLeft') {
-    timeLine.scrollLeft -= 10;
+    timeLine.scrollLeft -= 100;
   }
 });

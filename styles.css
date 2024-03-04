@@ -7,6 +7,12 @@
 
 body {
     background-color: #6ac5f4;
+    scroll-behavior: smooth;
+}
+
+hr {
+    border: 5px solid black;
+    border-radius: 3px;
 }
 
 #decades-navigation>h1 {
@@ -14,6 +20,11 @@ body {
     text-align: center;
     font-size: 1.75vw;
     background-color: #fc510b;
+}
+
+#car-details {
+    display: none;
+    overflow-x: auto;
 }
 
 #car-details>p {
@@ -38,15 +49,8 @@ body {
     background-color: #6ac5f4;
 }
 
-#car-timeline::after {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: black;
-    margin-top: 10px;
-}
-
 img {
     width: 20vw;
     object-fit: cover;
+    border-right: 5 px solid black;
 }
