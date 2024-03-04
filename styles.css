@@ -26,6 +26,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 0.69 vw;
+    height: 25%;
 }
 
 #car-timeline {

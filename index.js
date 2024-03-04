@@ -3,6 +3,12 @@ function appendTimeline(cars) {
   const carDetails = document.querySelector("#car-details")
   timeLine.innerHTML = ''
   carDetails.innerHTML = ''
+  timeLine.addEventListener('wheel', () => {
+    timeLine.scrollLeft += 10;
+  })
+  timeLine.addEventListener('wheel', () => {
+    timeLine.scrollLeft -= 10;
+  })
   cars.forEach(cars => {
     const addCar = document.createElement("img")
     addCar.src = cars.image
