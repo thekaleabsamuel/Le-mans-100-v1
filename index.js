@@ -1,28 +1,178 @@
-async function populateTimeline() {
-  try {
-    const response = await fetch('db.json');
-    const data = await response.json();
-    const timeline = document.querySelector('.timeline ol');
+function appendTimeline(cars) {
+  timeLine.innerHTML = '';
+  cars.forEach(car => {
+      const detailsDiv = document.createElement("div");
+      detailsDiv.className = "car-details";
+      detailsDiv.style.display = 'none';
 
-    for (const year in data) {
-      const event = data[year];
-      const listItem = document.createElement('li');
-      const content = `
-        <div>
-          <h2>${event.Year}</h2>
-          <p>Winners: ${event.Winners}</p>
-          <p>Racer Nationality: ${event['Racer Nationality']}</p>
-          <p>Car Company: ${event['Car Company']}</p>
-          <p>Country of Car: ${event['Country of Car']}</p>
-          <p>Car Model: ${event['Car Model']}</p>
-        </div>
-      `;
-      listItem.innerHTML = content;
-      timeline.appendChild(listItem);
-    }
-  } catch (error) {
-    console.error('Error fetching and populating timeline:', error);
-  }
+      const addCar = document.createElement("img");
+      // Create an audio element for each car
+      const carAudio = new Audio(car.MP3);
+
+      addCar.src = car.image;
+      addCar.addEventListener('mouseenter', function () {
+          detailsDiv.style.display = 'block';
+      });
+      addCar.addEventListener('mouseleave', function () {
+          detailsDiv.style.display = 'none';
+      });
+      // Attach a click event listener to play the car's audio
+      addCar.addEventListener('click', function () {
+          console.log('Car clicked!');
+          console.log('MP3 URL:', car.MP3);
+          console.log('carAudio object:', carAudio);
+          carAudio.play().catch(function (error) {
+              console.log('Audio playback failed:', error);
+          });
+      });
+      const disYear = document.createElement("h2");
+      const Racer = document.createElement("p");
+      const carModel = document.createElement("p");
+      disYear.textContent = car.Year;
+      Racer.textContent = car.Winners;
+      carModel.textContent = car["Car Company"];
+      detailsDiv.append(disYear, carModel, Racer);
+
+      timeLine.append(addCar);
+      carDetails.append(detailsDiv);
+  });
 }
 
-populateTimeline();
+const carDetails = document.querySelector("#car-details");
+const timeLine = document.querySelector("#car-timeline");
+const nav100 = document.querySelector("#all");
+const nav1920 = document.querySelector("#the1920");
+const nav30 = document.querySelector("#the30");
+const nav40 = document.querySelector("#the40");
+const nav50 = document.querySelector("#the50");
+const nav60 = document.querySelector("#the60");
+const nav70 = document.querySelector("#the70");
+const nav80 = document.querySelector("#the80");
+const nav90 = document.querySelector("#the90");
+const nav00 = document.querySelector("#the00");
+const nav10 = document.querySelector("#the10");
+const nav2020 = document.querySelector("#the2020");
+nav1920.addEventListener('click', grab1920s);
+nav30.addEventListener('click', grab1930s);
+nav40.addEventListener('click', grab1940s);
+nav50.addEventListener('click', grab1950s);
+nav60.addEventListener('click', grab1960s);
+nav70.addEventListener('click', grab1970s);
+nav80.addEventListener('click', grab1980s);
+nav90.addEventListener('click', grab1990s);
+nav00.addEventListener('click', grab2000s);
+nav10.addEventListener('click', grab2010s);
+nav2020.addEventListener('click', grab2020s);
+nav100.addEventListener('click', grab100);
+
+function grab1920s() {
+  fetch("http://localhost:3000/1920s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 1920s:', error));
+}
+function grab1930s() {
+  fetch("http://localhost:3000/1930s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 1930s:', error));
+}
+function grab1940s() {
+  fetch("http://localhost:3000/1940s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 1940s:', error));
+}
+function grab1950s() {
+  fetch("http://localhost:3000/1950s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 1950s:', error));
+}
+function grab1960s() {
+  fetch("http://localhost:3000/1960s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 1960s:', error));
+}
+function grab1970s() {
+  fetch("http://localhost:3000/1970s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 1970s:', error));
+}
+function grab1980s() {
+  fetch("http://localhost:3000/1980s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 1980s:', error));
+}
+function grab1990s() {
+  fetch("http://localhost:3000/1990s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 1990s:', error));
+}
+function grab2000s() {
+  fetch("http://localhost:3000/2000s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 2000s:', error));
+}
+function grab2010s() {
+  fetch("http://localhost:3000/2010s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 2010s:', error));
+}
+function grab2020s() {
+  fetch("http://localhost:3000/2020s")
+      .then(r => r.json())
+      .then(cars => {
+          appendTimeline(cars);
+      })
+      .catch(error => console.error('Error fetching 2020s:', error));
+}
+// Define other grabXXXXs functions similarly for other decades...
+
+function grab100() {
+  grab1920s();
+  grab1930s();
+  grab1940s();
+  grab1950s();
+  grab1960s();
+  grab1970s();
+  grab1980s();
+  grab1990s();
+  grab2000s();
+  grab2010s();
+  grab2020s();
+}
+
+document.addEventListener('keydown', function (event) {
+  if (event.key === 'ArrowRight') {
+      timeLine.scrollLeft += 100;
+  } else if (event.key === 'ArrowLeft') {
+      timeLine.scrollLeft -= 100;
+  }
+});
