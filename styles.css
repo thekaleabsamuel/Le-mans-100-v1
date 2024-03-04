@@ -1,22 +1,17 @@
-#decades-navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25vh;
-}
-
 body {
     background-color: #6ac5f4;
     scroll-behavior: smooth;
 }
 
-hr {
-    border: 5px solid black;
-    border-radius: 3px;
-}
-
 #decades-navigation>h1:hover {
     text-shadow: 5px white;
+}
+
+#decades-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25vh;
 }
 
 #decades-navigation>h1 {
@@ -26,19 +21,6 @@ hr {
     background-color: #fc510b;
     height: 100px;
     line-height: 4;
-}
-
-#car-details>p {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#car-details>h1 {
-    display: flex;
-    align-items: center;
-    font-size: 0.69 vw;
-    height: 25%;
 }
 
 #car-timeline {
@@ -52,6 +34,9 @@ hr {
 
 img {
     width: 20vw;
-    object-fit: cover;
-    border-right: 5 px solid black;
+}
+
+hr {
+    border: 5px solid black;
+    border-radius: 3px;
 }

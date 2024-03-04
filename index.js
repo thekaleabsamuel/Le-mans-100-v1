@@ -17,21 +17,20 @@ function appendTimeline(cars) {
       detailsDiv.style.display = 'none';
     });
     addCar.addEventListener('click', function () {
-      console.log('Car clicked!');
-      console.log('MP3 URL:', car.MP3);
-      console.log('carAudio object:', carAudio);
       carAudio.play().catch(function (error) {
         console.log('Audio playback failed:', error);
       });
     });
 
+    const carNotes = document.createElement("p")
     const disYear = document.createElement("h2");
     const Racer = document.createElement("p");
     const carModel = document.createElement("p");
+    carNotes.textContent = car.Note
     disYear.textContent = car.Year;
     Racer.textContent = car.Winners;
-    carModel.textContent = car["Car Company"];
-    detailsDiv.append(disYear, carModel, Racer);
+    carModel.textContent = car["Car Model"];
+    detailsDiv.append(disYear, carModel, Racer, carNotes);
 
     timeLine.append(disYear, addCar);
     carDetails.append(detailsDiv);
