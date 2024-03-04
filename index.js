@@ -4,7 +4,7 @@ function appendTimeline(cars) {
     const detailsDiv = document.createElement("div");
     detailsDiv.className = "car-details";
     detailsDiv.style.display = 'none';
-    
+
     const addCar = document.createElement("img");
     addCar.src = car.image;
 
@@ -66,91 +66,91 @@ nav100.addEventListener('click', grab100);
 
 function grab1920s() {
   fetch("http://localhost:3000/1920s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 1920s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 1920s:', error));
 }
 function grab1930s() {
   fetch("http://localhost:3000/1930s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 1930s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 1930s:', error));
 }
 function grab1940s() {
   fetch("http://localhost:3000/1940s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 1940s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 1940s:', error));
 }
 function grab1950s() {
   fetch("http://localhost:3000/1950s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 1950s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 1950s:', error));
 }
 function grab1960s() {
   fetch("http://localhost:3000/1960s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 1960s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 1960s:', error));
 }
 function grab1970s() {
   fetch("http://localhost:3000/1970s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 1970s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 1970s:', error));
 }
 function grab1980s() {
   fetch("http://localhost:3000/1980s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 1980s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 1980s:', error));
 }
 function grab1990s() {
   fetch("http://localhost:3000/1990s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 1990s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 1990s:', error));
 }
 function grab2000s() {
   fetch("http://localhost:3000/2000s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 2000s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 2000s:', error));
 }
 function grab2010s() {
   fetch("http://localhost:3000/2010s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 2010s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 2010s:', error));
 }
 function grab2020s() {
   fetch("http://localhost:3000/2020s")
-      .then(r => r.json())
-      .then(cars => {
-          appendTimeline(cars);
-      })
-      .catch(error => console.error('Error fetching 2020s:', error));
+    .then(r => r.json())
+    .then(cars => {
+      appendTimeline(cars);
+    })
+    .catch(error => console.error('Error fetching 2020s:', error));
 }
 
 function grab100() {
@@ -169,8 +169,29 @@ function grab100() {
 
 document.addEventListener('keydown', function (event) {
   if (event.key === 'ArrowRight') {
-      timeLine.scrollLeft += 100;
+    timeLine.scrollLeft += 400;
   } else if (event.key === 'ArrowLeft') {
-      timeLine.scrollLeft -= 100;
+    timeLine.scrollLeft -= 400;
   }
 });
+
+const countryEmoji = {
+  "British": "🇬🇧",
+  "United Kingdom": "🇬🇧",
+  "France": "🇫🇷",
+  "French": "🇫🇷",
+  "Canadian": "🇨🇦",
+  "Australian": "🇦🇺",
+  "Italy": "🇮🇹",
+  "Italian": "🇮🇹",
+  "Italian-American": "🇮🇹🇺🇸",
+  "American": "🇺🇸",
+  "United States": "🇺🇸",
+  "Germany": "🇩🇪",
+  "German": "🇩🇪",
+  "Argentinian": "🇦🇷",
+  "Belgian": "🇧🇪",
+  "Austrian": "🇦🇹",
+  "New Zealander": "🇳🇿",
+  "Mexican": "🇲🇽"
+}
