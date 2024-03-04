@@ -1,40 +1,42 @@
 function appendTimeline(cars) {
   timeLine.innerHTML = '';
   cars.forEach(car => {
-      const detailsDiv = document.createElement("div");
-      detailsDiv.className = "car-details";
+    const detailsDiv = document.createElement("div");
+    detailsDiv.className = "car-details";
+    detailsDiv.style.display = 'none';
+    
+    const addCar = document.createElement("img");
+    addCar.src = car.image;
+
+    // Create an audio element for each car
+    const carAudio = new Audio(car.MP3);
+
+    addCar.addEventListener('mouseenter', function () {
+      detailsDiv.style.display = 'block';
+    });
+    addCar.addEventListener('mouseleave', function () {
       detailsDiv.style.display = 'none';
-
-      const addCar = document.createElement("img");
-      // Create an audio element for each car
-      const carAudio = new Audio(car.MP3);
-
-      addCar.src = car.image;
-      addCar.addEventListener('mouseenter', function () {
-          detailsDiv.style.display = 'block';
+    });
+    // Attach a click event listener to play the car's audio
+    addCar.addEventListener('click', function () {
+      console.log('Car clicked!');
+      console.log('MP3 URL:', car.MP3);
+      console.log('carAudio object:', carAudio);
+      carAudio.play().catch(function (error) {
+        console.log('Audio playback failed:', error);
       });
-      addCar.addEventListener('mouseleave', function () {
-          detailsDiv.style.display = 'none';
-      });
-      // Attach a click event listener to play the car's audio
-      addCar.addEventListener('click', function () {
-          console.log('Car clicked!');
-          console.log('MP3 URL:', car.MP3);
-          console.log('carAudio object:', carAudio);
-          carAudio.play().catch(function (error) {
-              console.log('Audio playback failed:', error);
-          });
-      });
-      const disYear = document.createElement("h2");
-      const Racer = document.createElement("p");
-      const carModel = document.createElement("p");
-      disYear.textContent = car.Year;
-      Racer.textContent = car.Winners;
-      carModel.textContent = car["Car Company"];
-      detailsDiv.append(disYear, carModel, Racer);
+    });
 
-      timeLine.append(addCar);
-      carDetails.append(detailsDiv);
+    const disYear = document.createElement("h2");
+    const Racer = document.createElement("p");
+    const carModel = document.createElement("p");
+    disYear.textContent = car.Year;
+    Racer.textContent = car.Winners;
+    carModel.textContent = car["Car Company"];
+    detailsDiv.append(disYear, carModel, Racer);
+
+    timeLine.append(disYear, addCar);
+    carDetails.append(detailsDiv);
   });
 }
 

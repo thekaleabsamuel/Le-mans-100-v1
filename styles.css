@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 35vh;
+  margin-bottom: 25vh;
 }
 
 body {
@@ -26,11 +26,6 @@ hr {
   background-color: #fc510b;
   height: 100px;
   line-height: 4;
-}
-
-#car-details {
-  /* display: none; */
-  overflow-x: auto;
 }
 
 #car-details>p {
