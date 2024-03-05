@@ -18,7 +18,7 @@ function appendTimeline(cars) {
       detailsDiv.style.display = 'none';
       carDetails.style.display = 'none';
     });
-    
+
     addCar.addEventListener('click', function () {
       carAudio.play().catch(function (error) {
         console.log('Audio playback failed:', error);
@@ -172,18 +172,26 @@ function grab2020s() {
 }
 
 function grab100() {
-  grab1920s();
-  grab1930s();
-  grab1940s();
-  grab1950s();
-  grab1960s();
-  grab1970s();
-  grab1980s();
-  grab1990s();
-  grab2000s();
-  grab2010s();
-  grab2020s();
+  Promise.all([
+    fetch("http://localhost:3000/1920s").then(r => r.json()),
+    fetch("http://localhost:3000/1930s").then(r => r.json()),
+    fetch("http://localhost:3000/1940s").then(r => r.json()),
+    fetch("http://localhost:3000/1950s").then(r => r.json()),
+    fetch("http://localhost:3000/1960s").then(r => r.json()),
+    fetch("http://localhost:3000/1970s").then(r => r.json()),
+    fetch("http://localhost:3000/1980s").then(r => r.json()),
+    fetch("http://localhost:3000/1990s").then(r => r.json()),
+    fetch("http://localhost:3000/2000s").then(r => r.json()),
+    fetch("http://localhost:3000/2010s").then(r => r.json()),
+    fetch("http://localhost:3000/2020s").then(r => r.json())
+  ])
+    .then(results => {
+      const flattenedResults = [].concat(...results);
+      appendTimeline(flattenedResults);
+    })
 }
+grab100()
+
 
 document.addEventListener('keydown', function (event) {
   if (event.key === 'ArrowRight') {
