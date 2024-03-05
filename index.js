@@ -12,9 +12,11 @@ function appendTimeline(cars) {
 
     addCar.addEventListener('mouseenter', function () {
       detailsDiv.style.display = 'block';
+      carDetails.style.display = 'block';
     });
     addCar.addEventListener('mouseleave', function () {
       detailsDiv.style.display = 'none';
+      carDetails.style.display = 'none';
     });
     addCar.addEventListener('click', function () {
       carAudio.play().catch(function (error) {
@@ -33,9 +35,6 @@ function appendTimeline(cars) {
     const country = car["Country of Car"];
     const emoji = countryEmoji[country] || '❓';
     carModel.textContent = car["Car Model"] + ' ' + emoji;
-    if (typeof car ["Country of Car"] === 'undefined') {
-      return 
-    }
 
     detailsDiv.append(carModel, Racer, carNotes);
 
@@ -72,6 +71,7 @@ nav2020.addEventListener('click', grab2020s);
 nav100.addEventListener('click', grab100);
 
 function grab1920s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/1920s")
     .then(r => r.json())
     .then(cars => {
@@ -80,6 +80,7 @@ function grab1920s() {
     .catch(error => console.error('Error fetching 1920s:', error));
 }
 function grab1930s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/1930s")
     .then(r => r.json())
     .then(cars => {
@@ -88,6 +89,7 @@ function grab1930s() {
     .catch(error => console.error('Error fetching 1930s:', error));
 }
 function grab1940s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/1940s")
     .then(r => r.json())
     .then(cars => {
@@ -96,6 +98,7 @@ function grab1940s() {
     .catch(error => console.error('Error fetching 1940s:', error));
 }
 function grab1950s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/1950s")
     .then(r => r.json())
     .then(cars => {
@@ -104,6 +107,7 @@ function grab1950s() {
     .catch(error => console.error('Error fetching 1950s:', error));
 }
 function grab1960s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/1960s")
     .then(r => r.json())
     .then(cars => {
@@ -112,6 +116,7 @@ function grab1960s() {
     .catch(error => console.error('Error fetching 1960s:', error));
 }
 function grab1970s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/1970s")
     .then(r => r.json())
     .then(cars => {
@@ -120,6 +125,7 @@ function grab1970s() {
     .catch(error => console.error('Error fetching 1970s:', error));
 }
 function grab1980s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/1980s")
     .then(r => r.json())
     .then(cars => {
@@ -128,6 +134,7 @@ function grab1980s() {
     .catch(error => console.error('Error fetching 1980s:', error));
 }
 function grab1990s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/1990s")
     .then(r => r.json())
     .then(cars => {
@@ -136,6 +143,7 @@ function grab1990s() {
     .catch(error => console.error('Error fetching 1990s:', error));
 }
 function grab2000s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/2000s")
     .then(r => r.json())
     .then(cars => {
@@ -144,6 +152,7 @@ function grab2000s() {
     .catch(error => console.error('Error fetching 2000s:', error));
 }
 function grab2010s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/2010s")
     .then(r => r.json())
     .then(cars => {
@@ -152,6 +161,7 @@ function grab2010s() {
     .catch(error => console.error('Error fetching 2010s:', error));
 }
 function grab2020s() {
+  carDetails.innerHTML = ''
   fetch("http://localhost:3000/2020s")
     .then(r => r.json())
     .then(cars => {

@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Ferro Rosso';
+    src: url('fonts/FerroRosso-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Windpower';
+    src: url('Assets/Windpower.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #6ac5f4;
     scroll-behavior: smooth;
@@ -11,16 +25,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 25vh;
+    margin-bottom: 20vh;
 }
 
-#decades-navigation>h1 {
+.navigation {
+    font-family: "Ferro Rosso", sans-serif;
     font-size: 1.75vw;
     text-align: center;
     flex: 1;
     background-color: #fc510b;
     height: 100px;
     line-height: 4;
+    margin-top: 0%;
 }
 
 #car-timeline {
@@ -30,6 +46,21 @@ body {
     gap: 10px;
     padding: 10px;
     background-color: #6ac5f4;
+}
+
+#car-details {
+    background-color:#fc510b;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 600px; 
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: none;
 }
 
 img {
@@ -42,9 +73,12 @@ hr {
 }
 
 h2 {
+    font-family: "Ferro Rosso", sans-serif;
     font-size: 30px;
 }
 
 p {
+    font-family: "Windpower", sans-serif;
     font-size: 20px;
+    text-shadow: 1px 1px white;
 }
