@@ -33,6 +33,9 @@ function appendTimeline(cars) {
     const country = car["Country of Car"];
     const emoji = countryEmoji[country] || '❓';
     carModel.textContent = car["Car Model"] + ' ' + emoji;
+    if (typeof car ["Country of Car"] === 'undefined') {
+      return 
+    }
 
     detailsDiv.append(carModel, Racer, carNotes);
 
