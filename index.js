@@ -18,6 +18,7 @@ function appendTimeline(cars) {
       detailsDiv.style.display = 'none';
       carDetails.style.display = 'none';
     });
+    
     addCar.addEventListener('click', function () {
       carAudio.play().catch(function (error) {
         console.log('Audio playback failed:', error);
