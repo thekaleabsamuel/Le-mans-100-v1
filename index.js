@@ -172,6 +172,7 @@ function grab2020s() {
 }
 
 function grab100() {
+  carDetails.innerHTML = ''
   Promise.all([
     fetch("http://localhost:3000/1920s").then(r => r.json()),
     fetch("http://localhost:3000/1930s").then(r => r.json()),
