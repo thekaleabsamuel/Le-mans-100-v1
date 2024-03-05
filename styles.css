@@ -19,6 +19,15 @@ body {
     margin: 0%;
 }
 
+#title {
+    font-family: "Ferro Rosso", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #fc510b;
+    font-size: 50px;
+    border-bottom: 10px solid black;
+}
+
 #decades-navigation>h1:hover {
     text-shadow: 5px white;
 }
@@ -51,15 +60,15 @@ body {
 }
 
 #car-details {
-    background-color:#fc510b;
+    background-color: #fc510b;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 5%;
     border: 2px solid black;
-    border-radius: 10px; 
-    padding: 20px; 
-    width: 550px; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 550px;
     height: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: none;
@@ -83,4 +92,10 @@ p {
     font-family: "Windpower", sans-serif;
     font-size: 20px;
     text-shadow: 0px 1px white;
+}
+
+#LeMans {
+    margin-top: 40vh;
+    padding-left: 10%;
+    padding-right: 10%;
 }
