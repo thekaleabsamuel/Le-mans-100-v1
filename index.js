@@ -196,8 +196,7 @@ grab100()
 timeLine.addEventListener('wheel', (event) => {
   event.preventDefault();
   timeLine.scrollBy({
-    left: event.deltaY < 0 ? -350 : 350,
-    
+    left: event.deltaY < 0 ? -200 : 200,
   });
 });
 

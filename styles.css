@@ -43,6 +43,11 @@ body {
     font-size: 1.75vw;
     align-items: center;
     height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.navigation:hover {
+    transform: translateY(-5px);
 }
 
 #car-timeline {
