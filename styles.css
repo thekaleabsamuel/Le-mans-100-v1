@@ -43,17 +43,18 @@ body {
     font-size: 1.75vw;
     align-items: center;
     height: 100px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-out;
+    color:rgba(0, 0, 0, 0.768);
 }
 
 .navigation:hover {
     transform: translateY(-5px);
+    color: black; 
 }
 
 #car-timeline {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
     gap: 10px;
     padding: 10px;
     background-color: #6ac5f4;

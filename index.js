@@ -229,3 +229,9 @@ const countryEmoji = {
   "Spanish": "🇪🇸",
   "Swiss": "🇨🇭",
 }
+
+// fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
+//   .then(r => r.json())
+//   .then(cardata => {
+//     console.log(cardata.record)
+//   })
