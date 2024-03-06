@@ -193,13 +193,12 @@ function grab100() {
 }
 grab100()
 
-
-document.addEventListener('keydown', function (event) {
-  if (event.key === 'ArrowRight') {
-    timeLine.scrollLeft += 400;
-  } else if (event.key === 'ArrowLeft') {
-    timeLine.scrollLeft -= 400;
-  }
+timeLine.addEventListener('wheel', (event) => {
+  event.preventDefault();
+  timeLine.scrollBy({
+    left: event.deltaY < 0 ? -350 : 350,
+    
+  });
 });
 
 const countryEmoji = {

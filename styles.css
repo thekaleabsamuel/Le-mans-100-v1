@@ -14,7 +14,7 @@
 
 body {
     background-color: #6ac5f4;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
     padding: 0%;
     margin: 0%;
 }
@@ -28,27 +28,21 @@ body {
     border-bottom: 10px solid black;
 }
 
-#decades-navigation>h1:hover {
-    text-shadow: 5px white;
-}
-
 #decades-navigation {
+    background-color: #fc510b;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 20vh;
 }
 
 .navigation {
+    display: flex;
     font-family: "Ferro Rosso", sans-serif;
     font-size: 1.75vw;
-    text-align: center;
-    flex: 1;
-    background-color: #fc510b;
+    align-items: center;
     height: 100px;
-    line-height: 4;
-    margin-top: 0%;
 }
 
 #car-timeline {
@@ -58,6 +52,7 @@ body {
     gap: 10px;
     padding: 10px;
     background-color: #6ac5f4;
+    overflow: hidden;
 }
 
 #car-details {
@@ -95,7 +90,7 @@ p {
 }
 
 #LeMans {
-    margin-top: 40vh;
+    padding-top: 15%;
     padding-left: 10%;
     padding-right: 10%;
 }
