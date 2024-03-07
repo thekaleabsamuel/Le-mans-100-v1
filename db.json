@@ -170,6 +170,11 @@
     ],
     "1940s": [
         {
+            "winners": "No Winners Due To WWII ",
+            "Year": "1940",
+            "image": "https://i.postimg.cc/hPDdww9n/Screen-Shot-2024-03-05-at-9-30-59-AM-removebg-preview.png"
+        },
+        {
             "Winners": "Luigi Chinetti and Lord Selsdon",
             "Year": 1949,
             "Racer Nationality": "Chinetti (Italian-American), Selsdon (British)",
@@ -178,11 +183,8 @@
             "Car Model": "Ferrari 166MM",
             "image": "https://iili.io/JMYWOqx.png",
             "MP3":"https://dl.sndup.net/bdkf/1949.mp3"
-        },
-        {
-            "Note": "Due to the events of World War 2, only one race was held at the end of the decade.",
-            "image": ""
         }
+       
     ],
     "1950s": [
         {
