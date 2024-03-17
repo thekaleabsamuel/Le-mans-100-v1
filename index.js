@@ -73,130 +73,120 @@ nav100.addEventListener('click', grab100);
 
 function grab1920s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/1920s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["1920s"]);
     })
     .catch(error => console.error('Error fetching 1920s:', error));
 }
 function grab1930s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/1930s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["1930s"]);
     })
     .catch(error => console.error('Error fetching 1930s:', error));
 }
 function grab1940s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/1940s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["1940s"]);
     })
     .catch(error => console.error('Error fetching 1940s:', error));
 }
 function grab1950s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/1950s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["1950s"]);
     })
     .catch(error => console.error('Error fetching 1950s:', error));
 }
 function grab1960s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/1960s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["1960s"]);
     })
     .catch(error => console.error('Error fetching 1960s:', error));
 }
 function grab1970s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/1970s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["1970s"]);
     })
     .catch(error => console.error('Error fetching 1970s:', error));
 }
 function grab1980s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/1980s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["1980s"]);
     })
     .catch(error => console.error('Error fetching 1980s:', error));
 }
 function grab1990s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/1990s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["1990s"]);
     })
     .catch(error => console.error('Error fetching 1990s:', error));
 }
 function grab2000s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/2000s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["2000s"]);
     })
     .catch(error => console.error('Error fetching 2000s:', error));
 }
 function grab2010s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/2010s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["2010s"]);
     })
     .catch(error => console.error('Error fetching 2010s:', error));
 }
 function grab2020s() {
   carDetails.innerHTML = ''
-  fetch("http://localhost:3000/2020s")
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
     .then(r => r.json())
     .then(cars => {
-      appendTimeline(cars);
+      appendTimeline(cars.record["2020s"]);
     })
     .catch(error => console.error('Error fetching 2020s:', error));
 }
 
 function grab100() {
-  carDetails.innerHTML = ''
-  Promise.all([
-    fetch("http://localhost:3000/1920s").then(r => r.json()),
-    fetch("http://localhost:3000/1930s").then(r => r.json()),
-    fetch("http://localhost:3000/1940s").then(r => r.json()),
-    fetch("http://localhost:3000/1950s").then(r => r.json()),
-    fetch("http://localhost:3000/1960s").then(r => r.json()),
-    fetch("http://localhost:3000/1970s").then(r => r.json()),
-    fetch("http://localhost:3000/1980s").then(r => r.json()),
-    fetch("http://localhost:3000/1990s").then(r => r.json()),
-    fetch("http://localhost:3000/2000s").then(r => r.json()),
-    fetch("http://localhost:3000/2010s").then(r => r.json()),
-    fetch("http://localhost:3000/2020s").then(r => r.json())
-  ])
-    .then(results => {
-      const flattenedResults = [].concat(...results);
-      appendTimeline(flattenedResults);
+  carDetails.innerHTML = '';
+  fetch("https://api.jsonbin.io/v3/b/65e8ae3b1f5677401f396bdb")
+    .then(r => r.json())
+    .then(cars => {
+      carArray = [...cars.record["1920s"], cars.record["1930s"], cars.record["1940s"], cars.record["1950s"], cars.record["1960s"], cars.record["1970s"], cars.record["1980s"], cars.record["1990s"], cars.record["2000s"], cars.record["2010s"], cars.record["2020s"]];
+      carArray = carArray.flat();
+      appendTimeline(carArray)
     })
-}
+};
 grab100()
 
 timeLine.addEventListener('wheel', (event) => {
   event.preventDefault();
   timeLine.scrollBy({
-    left: event.deltaY < 0 ? -50 : 50,
+    left: event.deltaY < 0 ? -100 : 100,
   });
 });
 
