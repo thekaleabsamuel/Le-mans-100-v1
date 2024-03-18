@@ -7,6 +7,7 @@ function appendTimeline(cars) {
 
     const addCar = document.createElement("img");
     addCar.src = car.image;
+    addCar.className = "car-image"
 
     const carAudio = new Audio(car.MP3);
 
